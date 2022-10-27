@@ -12,6 +12,11 @@ git remote add <имя для репозитория> <адрес репозит
 Пример:
 git remote add origin https://github.com/polina34/REMOTE.git
 ```
+Для получения слияния изменений с удаленного репозитория используется команда 
+```
+git pull
+```
+
 ```C#
 int count = 0;
 while( count <= n){
